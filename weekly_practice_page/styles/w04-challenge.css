@@ -1,0 +1,64 @@
+* {
+    border: 2px solid blue;
+}
+
+body {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+    color: black;
+    
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+
+}
+
+h1.invert:hover {
+    color: black;
+}
+
+p.list {
+    width: 300px;
+    margin: 0 auto;
+    color: black;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+p.quote1 {
+    width: 375px;
+    margin: 0 auto;
+    
+}
+
+p.quote2 {
+    width: 255px;
+    margin: 0 auto;
+    font-size: 1.8em;
+}
+
+
+
+
+
+
+
+/* END OF LINE */
