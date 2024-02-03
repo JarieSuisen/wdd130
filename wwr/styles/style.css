@@ -1,0 +1,117 @@
+/* Bordertester */
+/* * {
+    border: 2px solid blue;
+} */
+
+body {
+    background-color: white;
+}
+
+div#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #7dc4d5;
+}
+
+nav a {
+    text-align: center;
+    color: #154467;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #d4c5c7;
+    color: #36151e;
+}
+
+main section {
+    text-align: center;
+}
+
+footer {
+    background-color: #7dc4d5;
+    color: #36151e;
+}
+
+footer a {
+    color: #36151e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #36151e;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    color: #d4c5c7;
+}
+
+.book, .join {
+    background-color: #7dc4d5;
+    color: #36151e;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: #154467;
+    color: #d4c5c7;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.home-title {
+    color: #154467;
+}
+
+.icon {
+    width: 80px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.msg {
+    background-color: #d4c5c7;
+}
+
+.msg h2 {
+    color: #154467;
+}
+
+.msg p {
+    color: #154467;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #154467;
+}
+
+
+
+
+
+
+/* END OF LINE */
