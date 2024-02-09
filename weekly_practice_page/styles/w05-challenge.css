@@ -1,0 +1,28 @@
+/* * {border: 2px solid blue;} */
+
+body {
+    background-color: #737373;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.background {
+    width: 100%;
+}
+
+a {
+    display: inline;
+
+}
+
+.icon {
+    width: 20%;
+    border: solid #444444;
+    border-radius: 50%;
+    border-width: 23px;
+    margin: 3% 4%;
+    
+    
+}
+

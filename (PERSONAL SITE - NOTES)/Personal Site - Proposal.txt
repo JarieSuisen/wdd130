@@ -1,0 +1,18 @@
+Personal Website Proposal
+
+Layout:
+	Purpose explained within 2-3 sentences; must indicate the intended audience
+
+Notes:
+	Must consist of a Home Page & 2+ Child Pages
+	Must be hosted (publicly) on the web.
+	Each page must fulfill the following:
+		Content:
+			Significant textual content consisting of appropriate content for your audience so they can understand the meaning and message of this site.
+			At least one image that relates to the content of the page.
+			Working links to/between the Child Pages and Home Page.
+		Style:
+			Be laid out and styled according to the Site Plan Wireframes.
+			Be visually appealing and easily readable.
+
+

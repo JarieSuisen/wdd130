@@ -1,10 +1,19 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Merienda:wght@300..900&display=swap');
+
 /* Bordertester */
+
 /* * {
     border: 2px solid blue;
 } */
 
 body {
     background-color: white;
+    font-family: Merienda, Dosis, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 div#content {
@@ -14,12 +23,14 @@ div#content {
 
 header {
     background-color: #7dc4d5;
+    font-family: Dosis, Arial, sans-serif;
 }
 
 nav a {
     text-align: center;
     color: #154467;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -31,9 +42,16 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 footer {
     background-color: #7dc4d5;
     color: #36151e;
+    font-family: Dosis, Arial, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -53,6 +71,14 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
 h4 {
     color: #d4c5c7;
 }
@@ -61,6 +87,11 @@ h4 {
     background-color: #7dc4d5;
     color: #36151e;
     text-decoration: none;
+    font-family: Dosis, Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -72,12 +103,19 @@ h4 {
     text-align: center;
 }
 
+.card-img {
+    border: 10px #000000;
+}
+
 .home-title {
     color: #154467;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -86,6 +124,9 @@ h4 {
 
 .msg {
     background-color: #d4c5c7;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -94,6 +135,16 @@ h4 {
 
 .msg p {
     color: #154467;
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+#background {
+    height: 725px;
+    background-color: #154467;
 }
 
 #hero-img {
@@ -104,12 +155,9 @@ h4 {
     text-align: center;
 }
 
-#background {
-    height: 725px;
-    background-color: #154467;
+#logo_link {
+    padding-top: 5px;
 }
-
-
 
 
 
