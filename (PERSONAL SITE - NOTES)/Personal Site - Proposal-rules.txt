@@ -1,0 +1,26 @@
+Personal Website Proposal
+
+Layout:
+	Purpose explained within 2-3 sentences; must indicate the intended audience
+
+Notes:
+	Must consist of a Home Page & 2+ Child Pages
+	Must be hosted (publicly) on the web.
+	Each page must fulfill the following:
+		Content:
+			Significant textual content consisting of appropriate content for your audience so they can understand the meaning and message of this site.
+			At least one image that relates to the content of the page.
+			Working links to/between the Child Pages and Home Page.
+		Style:
+			Be laid out and styled according to the Site Plan Wireframes.
+			Be visually appealing and easily readable.
+
+
+
+------------------------
+Site name: Jarieの水栓 or Jarie's Suisen
+There is a site idea I've wanted to try: a site where I can share my hobbies with other people that are interested in stories, games, and other media I have enjoyed.
+The main page would be a general greeting page, linking out to the subpages (probably a page for a given type of media) which would would list and give details for the series/games/etc. of that media. They may need further sub-pages for a given series/game/etc., but that might depend on how the layout ends up for the first sub-pages.
+
+
+------------------------
