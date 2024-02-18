@@ -16,10 +16,6 @@ body {
     padding: 0;
 }
 
-div#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
 
 header {
     background-color: #7dc4d5;
@@ -145,6 +141,11 @@ h4 {
 #background {
     height: 725px;
     background-color: #154467;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 #hero-img {
