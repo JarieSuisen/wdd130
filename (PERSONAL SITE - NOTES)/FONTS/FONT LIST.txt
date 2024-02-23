@@ -1,0 +1,15 @@
+	FROM GOOGLE FONTS
+
+Noto Serif Japanese
+Noto Sans Japanese
+Nanum Myeongjo
+
+	Backups
+Arial?
+Times?
+
+
+-----------------------------------------
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP&display=swap')
+</style>

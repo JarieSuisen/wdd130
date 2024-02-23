@@ -1,0 +1,36 @@
+/* CSS HEX */
+--periwinkle-gray: #d5e0ee;
+--black-pearl: #041424;
+--java: #24c7cf;
+--corduroy: #5e6767;
+--blumine: #195c6a;
+--elm: #1f7c8c;
+--regent-gray: #7d8c96;
+--pickled-bluewood: #2b3947;
+--elephant: #134454;
+
+
+/* SCSS HEX */
+$periwinkle-gray: #d5e0ee;
+$black-pearl: #041424;
+$java: #24c7cf;
+$corduroy: #5e6767;
+$blumine: #195c6a;
+$elm: #1f7c8c;
+$regent-gray: #7d8c96;
+$pickled-bluewood: #2b3947;
+$elephant: #134454;
+
+
+/* SCSS RGB */
+--periwinkle-gray: rgba(213,224,238,1);
+--black-pearl: rgba(4,20,36,1);
+--java: rgba(36,199,207,1);
+--corduroy: rgba(94,103,103,1);
+--blumine: rgba(25,92,106,1);
+--elm: rgba(31,124,140,1);
+--regent-gray: rgba(125,140,150,1);
+--pickled-bluewood: rgba(43,57,71,1);
+--elephant: rgba(19,68,84,1);
+
+
