@@ -1,5 +1,6 @@
 Website Proposal: Informational website
 
 There is a site idea I've wanted to try: a site where I can share my hobbies with other people that are interested in stories, games, and other media I have enjoyed.
-The main page would be a general greeting page, linking out to the subpages (probably a page for a given type of media) which would would list and give details for the series/games/etc. of that media. They may need further sub-pages for a given series/game/etc., but that might depend on how the layout ends up for the first sub-pages.
+The main page would be a general greeting page, linking out to the subpages (probably a page for a given type of media) which would would list and give details for the series/games/etc. of that media.
+They may need further sub-pages for a given series/game/etc., but that might depend on how the layout ends up for the first sub-pages.
 

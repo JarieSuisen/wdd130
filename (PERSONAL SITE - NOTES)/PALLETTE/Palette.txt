@@ -34,3 +34,19 @@ $elephant: #134454;
 --elephant: rgba(19,68,84,1);
 
 
+-------------------------------------------------
+SITE LINKS
+Base color set:
+https://coolors.co/24c7cf-1f7c8c-195c6a-134454-041424-2b3947-5e6767-7d8c96-d5e0ee
+
+Same, plus pink
+https://coolors.co/24c7cf-1f7c8c-195c6a-134454-041424-2b3947-5e6767-7d8c96-d5e0ee-976391
+
+Limited Colors version (5-color)
+https://coolors.co/24c7cf-1f7c8c-7d8c96-d5e0ee-d57dbc
+
+
+
+
+
+END OF LINE
