@@ -1,0 +1,85 @@
+/*  */
+
+/* * {border: 2px solid blue;} */
+
+body {
+    
+    background: white;
+    text-align: center;
+    max-width: 300px;
+    
+}
+
+
+main {
+    background: white;
+    
+
+}
+
+footer {
+    background-color: rgb(23, 81, 131);
+    color: white;
+    line-height: 5px;
+    text-align: center;
+
+}
+
+.footergrid {
+    display: grid;
+    grid-template-columns: repeat(150px, 1fr);
+
+}
+
+h1 {
+
+}
+
+h2 {
+    font-size: 1em;
+    color: rgba(73, 142, 233, 0.973);
+    margin-top: 20px;
+    margin-bottom: -20px;
+
+}
+
+.para {
+    font-size: 1.2em;
+    margin: 25px;
+
+}
+
+.bridge {
+    width: 100%;
+}
+
+.read {
+    grid-column: 1/2;
+    border-width: 0px;
+    border-right: 1px;
+    border-color:gray;
+    border-style: solid;
+    
+    
+}
+
+
+.text {
+    font-size: 1em;
+}
+
+.label {
+    font-size: 0.5em;
+}
+
+.views {
+    grid-column: 2/3;
+}
+
+.comments {
+    grid-column: 3/4;
+    border-width: 0px;
+    border-left: 1px;
+    border-color:gray;
+    border-style: solid;
+}
