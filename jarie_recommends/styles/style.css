@@ -1,4 +1,6 @@
 
+/* * {border: 2px solid blue;} */
+
 /* Fonts - Import */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP&family=Zen+Antique+Soft&display=swap');
 
@@ -28,34 +30,167 @@
 }
 
 body {
+    text-align: center;
+
+
+}
+
+/*  */
+
+header {
+    background: #1f7c8c;
+
+}
+
+nav {
+    /* display: inline-block; */
+    vertical-align: middle;
     
+    /* border: 2px solid red; */
 }
 
-
-
-
-
-
-
-.image {
-    width: 300px;
-}
-
-.main_logo {
-    width: 200px;
+.home {
+    display: inline-block;
 }
 
 .logo {
     width: 80px;
+
 }
 
 
 .site_logo {
     width: 80px;
+
+}
+
+.home_logo_label {
+    margin-top: 5px;
+
+}
+
+.button-box {
+    display: inline;
+        
+    background-color: #7d8c96;
+    /* color: #0; */
+    /* text-decoration: none; */
+    
+    font-size: 20px;
+    padding: 5px 12px;
+    border-radius: 10px;
+    
+    margin: 15px;
+
+}
+
+.button-box:hover {
+    background-color: #d57dbc;
+
+}
+
+main {
+
+    background: 0;
+    
+
 }
 
 
 
+footer {
+    background: #1f7c8c;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+h1, h2, h3 {
+    font-family:var(--heading-font)
+}
+
+p, a {
+    font-family:var(--paragraph-font);
+}
+
+.social {
+
+
+}
+
+.image_display {
+
+}
+
+.image {
+    width: 300px;
+    display: inline-block;
+    
+    
+}
+
+.image_source {
+    margin-top: 5px;
+}
+
+.main_logo {
+    width: 200px;
+
+}
+
+.textbox {
+    background: #24c7cf;
+    width: 40%;
+
+    padding: 5px 20px;
+
+    border-width: 1px;
+    border-style: solid;
+    margin: 0, auto;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+/* THIS IS THE CATEGORIES SECTION and GRID */
+
+.categories {
+    
+    
+    
+    text-align:center;
+    display: grid;
+    width: 60%;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: repeat(3, 33%);
+
+    margin-bottom: 20px;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+}
+
+.media_categories {
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background: #24c7cf;
+    margin-top: 40px;
+    border-width: 1px;
+    border-style: solid;
+    /* display: inline-block; */
+    text-align: center
+}
+
+div.grid_image {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+    
+}
 
 
 
