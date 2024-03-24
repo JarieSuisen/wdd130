@@ -105,7 +105,7 @@ nav {
 
 main {
 
-    background: 0;
+    /* background: black; */
     
 
 }
@@ -159,7 +159,7 @@ p, a {
 
 .grid_container {
     /* display: block; */
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     
 }
 
@@ -205,6 +205,7 @@ p, a {
     /* grid-row: 1/4; */
     /* align-items: center;
     align-content: center; */
+    margin-bottom: 30px;
     
 }
 
@@ -238,7 +239,7 @@ p, a {
 
 footer {
     background: #1f7c8c;
-
+    
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
