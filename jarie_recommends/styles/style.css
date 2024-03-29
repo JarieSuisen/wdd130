@@ -113,13 +113,17 @@ main {
 h1, h2, h3 {
     font-family:var(--heading-font)
 }
+h2 {
+    text-align: center;
+}
 
 p, a {
     font-family:var(--paragraph-font);
 }
 
 .image_display {
-
+    display: inline-block;
+    margin-right: -10%;
 }
 
 .image {
@@ -139,17 +143,19 @@ p, a {
 }
 
 .textbox {
+    display: inline-block;
     background: #24c7cf;
     width: 40%;
-
     padding: 5px 20px;
-
     border-width: 1px;
     border-style: solid;
     margin: 0 auto;
-    display: inline-block;
+    
     text-align: left;
     margin-bottom: 20px;
+    margin-right: 20px;
+
+
 }
 
 
@@ -293,8 +299,65 @@ footer {
     margin:4px;
 }
 
+/* BEGIN CATEGORY PAGE CSS ---------------------------------- */
+
+.accordion {
+    background-color: #eee;
+    /* color: #444; */
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    /* border: none; */
+    border-width: 1px;
+    border-style: solid;
+    /* text-align: center; */
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #1f7c8c; 
+
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    /* background-color: white; */
+    background-color: #24c7cf;
+    overflow: hidden;
+    
+  }
+
+/* ACCORDION CSS FOR CATEGORY PAGE ENDS +++++++++++++++++++ */
+
+.category_list {
+    display: inline-block;
+
+    width: 80%;
+    border-width: 1px;
+    border-style:solid;
+    background: #7d8c96;
+    
+}
+
+.category_content {
 
 
+}
+
+
+.titles_section {
+
+
+}
+
+.titles_list {
+
+
+}
 
 
 
