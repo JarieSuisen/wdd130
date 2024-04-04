@@ -35,7 +35,7 @@ body {
 
 }
 
-/* HEADER AND NAV STARTS HERE */
+/* HEADER AND NAV STARTS HERE -------------------------------------------------------- */
 
 
 
@@ -101,7 +101,7 @@ nav {
 
 }
 
-/* MAIN BODY STARTS HERE */
+/* MAIN BODY STARTS HERE ---------------------------------------------------------------- */
 
 main {
 
@@ -121,17 +121,39 @@ p, a {
     font-family:var(--paragraph-font);
 }
 
+.image {
+    width: 300px;
+    display: inline-block;
+
+}
+
 .image_display {
     display: inline-block;
     margin-right: -10%;
 }
 
-.image {
-    width: 300px;
-    display: inline-block;
-    
-    
+.centering_image {
+    display:inline-block;
+    vertical-align: top;
 }
+
+.box {
+    display:inline-block;
+}
+
+.side_image_display {
+    display: inline-block;
+    margin-right: -10%;
+    vertical-align: top;
+}
+
+.top_image_display {
+    display: block;
+    margin-right: -10%;
+    width: 100%;
+}
+
+    
 
 .image_source {
     margin-top: 5px;
@@ -161,13 +183,7 @@ p, a {
 
 
 
-/* THIS IS THE CATEGORIES SECTION and GRID */
-
-.grid_container {
-    /* display: block; */
-    /* margin-bottom: 20px; */
-    
-}
+/* THIS IS THE CATEGORIES SECTION and GRID -------------------------------------------- */
 
 .gridbox {
     /* display: grid;
@@ -218,6 +234,9 @@ p, a {
 .grid_image {
     /* grid-column: 2/3; */
     display:inline-block;
+    vertical-align:top;
+    margin-top: 10em;
+    
     
 
 
@@ -233,7 +252,7 @@ p, a {
     /* width: 100%; */
     text-align: center;
     background: #24c7cf;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     border-width: 1px;
     border-style: solid;
     /* display: inline-block; */
@@ -241,7 +260,74 @@ p, a {
 }
 
 
-/* FOOTER STARTS HERE */
+
+
+.category_list {
+    display: inline-block;
+
+    width: 40%;
+    border-width: 1px;
+    border-style:solid;
+    background: #7d8c96;
+    
+}
+
+.category_content {
+
+
+}
+
+
+
+
+.titles_section {
+    display:inline-block;
+    width: 20%;
+    align-self: center;
+    align-content: center;
+    margin-bottom: 20px;
+
+}
+
+
+.grid_container {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    /* border-color:orange; */
+    /* border-width:20px; */
+    /* border-style: solid; */
+}
+
+
+.titles_grid {
+    display:grid;
+    grid-template-columns: auto;
+    background: #24c7cf;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+}
+
+.number_list {
+    grid-column: 1;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.titles_list {
+    grid-column: 2;
+    /* display:inline-block; */
+    text-align: left;
+    
+    /* text-align: center; */
+    
+
+}
+
+
+
+/* FOOTER STARTS HERE ------------------------------------------------------------ */
 
 footer {
     background: #1f7c8c;
@@ -249,7 +335,7 @@ footer {
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
-    /* margin-top: 15px; */
+    margin-top: 20px;
 
 }
 
@@ -299,7 +385,7 @@ footer {
     margin:4px;
 }
 
-/* BEGIN CATEGORY PAGE CSS ---------------------------------- */
+/* BEGIN CATEGORY PAGE CSS ------------------------------------------------------ */
 
 .accordion {
     background-color: #eee;
@@ -331,33 +417,7 @@ footer {
     
   }
 
-/* ACCORDION CSS FOR CATEGORY PAGE ENDS +++++++++++++++++++ */
-
-.category_list {
-    display: inline-block;
-
-    width: 80%;
-    border-width: 1px;
-    border-style:solid;
-    background: #7d8c96;
-    
-}
-
-.category_content {
-
-
-}
-
-
-.titles_section {
-
-
-}
-
-.titles_list {
-
-
-}
+/* ACCORDION CSS FOR CATEGORY PAGE ENDS +++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
 
