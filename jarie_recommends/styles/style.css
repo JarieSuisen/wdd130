@@ -186,24 +186,7 @@ p, a {
 /* THIS IS THE CATEGORIES SECTION and GRID -------------------------------------------- */
 
 .gridbox {
-    /* display: grid;
-    grid-template-columns: repeat(1); */
     
-    /* align-items: center;
-    justify-items: center; */
-
-    /* text-align:center; */
-    
-    
-    /* width: 60%; */
-    
-    /* grid-template-rows: repeat(3, 33%); */
-
-    /* align-content: center; */
-    /* justify-content: center; */
- 
-    /* margin-right: 200px;
-    margin-left: 200px; */
 }
 
 .categories {
@@ -213,20 +196,6 @@ p, a {
     margin-right: 20px;
     width: 480px;
     
-    /* padding: 10px; */
-
-
-    /* justify-items: center; */
-    
-
-
-    /* display:flex; */
-    /* width: 90%; */
-    
-    /* text-align:right; */
-    /* grid-row: 1/4; */
-    /* align-items: center;
-    align-content: center; */
     margin-bottom: 30px;
     
 }
@@ -294,14 +263,13 @@ p, a {
     display: flex;
     text-align: center;
     width: 100%;
-    /* border-color:orange; */
-    /* border-width:20px; */
-    /* border-style: solid; */
+    
 }
 
 
 .titles_grid {
     display:grid;
+
     grid-template-columns: auto;
     background: #24c7cf;
     border-width: 1px;
